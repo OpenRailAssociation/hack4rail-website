@@ -1,0 +1,7 @@
+images:
+  - image: images/events/hack4rail-2025-group.jpg
+    text: "Join the fantastic crowd!"
+    processes:
+    - "fill 1900x600 Buttom"
+    filter:
+      - GaussianBlur: 1

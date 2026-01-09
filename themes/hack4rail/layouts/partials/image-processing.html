@@ -1,0 +1,32 @@
+{{- /* Expects .image (asset), optionally .processes and .filter */}}
+{{- $image := (resources.Get .image) }}
+{{- range .processes }}
+  {{- $image = $image.Process . }}
+{{- end }}
+{{- with .filter }}
+  {{- $filters := slice }}
+  {{- range . }}
+    {{- range $method, $args := . }}
+      {{/*  No, this cannot be generalised, as strings cannot be converted to functions...  */}}
+      {{- if eq $method "GaussianBlur" }}
+        {{- $filters = $filters | append (images.GaussianBlur $args) }}
+      {{- else if eq $method "Brightness" }}
+        {{- $filters = $filters | append (images.Brightness $args) }}
+      {{- else if eq $method "Opacity" }}
+        {{- $filters = $filters | append (images.Opacity $args) }}
+      {{- else if eq $method "Pixelate" }}
+        {{- $filters = $filters | append (images.Pixelate $args) }}
+      {{- else if eq $method "Saturation" }}
+        {{- $filters = $filters | append (images.Saturation $args) }}
+      {{- else if eq $method "Sepia" }}
+        {{- $filters = $filters | append (images.Sepia $args) }}
+      {{- else if eq $method "Grayscale" }}
+        {{- $filters = $filters | append images.Grayscale }}
+      {{- else }}
+        {{- warnf "Unsupported filter: %s" $method }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+  {{- $image = $image.Filter $filters }}
+{{- end }}
+{{- return $image}}

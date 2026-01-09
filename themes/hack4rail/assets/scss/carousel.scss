@@ -1,0 +1,127 @@
+.carousel {
+  position: relative;
+
+  .c-slide {
+    padding-bottom: clamp(200px, 25%, 400px);
+  }
+
+  .c-text {
+    padding: 0 50px;
+  }
+
+  .c-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--primary-accent);
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+    z-index: 2;
+  }
+
+  ul {
+    overflow: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    scroll-snap-type: x mandatory;
+    scroll-snap-points-y: repeat(100%);
+    scroll-behavior: smooth;
+    background: gray;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin: 0;
+    padding: 0;
+
+    &::-webkit-scrollbar {
+      display: none; // Hide scrollbar for Chrome, Safari and Opera
+    }
+
+    li {
+      position: relative;
+      min-width: 100%;
+      list-style: none;
+      background: url() center center / cover no-repeat;
+      scroll-snap-align: start;
+
+      >* {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      // Image
+      >img {
+        z-index: 1;
+        object-fit: cover;
+      }
+
+      // Text
+      >div {
+        z-index: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-weight: 600;
+        font-size: 40px;
+        text-shadow: 0px 0px 15px black;
+
+        @media (max-width: 767px) {
+          font-size: 28px;
+        }
+      }
+    }
+  }
+
+  ol {
+    position: absolute;
+    bottom: 15px;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+
+    li {
+      list-style: none;
+      padding: 0 5px;
+
+      a {
+        display: block;
+        height: 10px;
+        width: 10px;
+        border: 2px solid white;
+        background: transparent;
+        border-radius: 100%;
+      }
+
+      &.selected a {
+        background: white;
+      }
+    }
+  }
+
+  .prev,
+  .next {
+    display: none;
+    user-select: none;
+    cursor: pointer;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    padding: 15px 15px 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+    line-height: 0;
+
+    &.next {
+      left: auto;
+      right: 0;
+    }
+  }
+}

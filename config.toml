@@ -1,0 +1,134 @@
+baseURL = "https://hack4rail.org"
+title = "Hack4Rail"
+
+theme = ["hack4rail", "hugomod-images", "hugo-cloak-email"]
+# Site languages. Available translations in the theme's `/i18n` directory.
+languageCode = "en"
+defaultContentLanguage = "en"
+
+# number of words of summarized post content (default 70)
+summaryLength = 70
+
+# not pluralize title pages by default
+pluralizelisttitles = false
+
+disableKinds = ["taxonomy", "rss"]
+
+# Define the number of posts per page
+[pagination]
+    pagerSize = 10
+
+# English quotation marks
+[markup.goldmark.extensions.typographer]
+    leftDoubleQuote = '“'
+    rightDoubleQuote = '”'
+
+# [menu]
+# # Main menu
+# [[menu.main]]
+#     name = "Challenges"
+#     identifier = "challenges"
+#     weight = 2
+#     url = ""
+
+[params]
+    author = "Hack4Rail Team"
+    defaultKeywords = ["hack4rail", "hackathon", "railway", "rail", "opensource", "community", "developers", "software", "openrail"]
+    mainSections = ["news", "challenges"]
+    # eventSections = ["events"]
+    defaultDescription = "Hack4Rail - The international hackathon for innovation in the railway sector"
+
+    # Social media
+    facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
+    twitter_site = "" # the Twitter handle of your site (without the '@')
+    default_sharing_image = "images/logo.png"
+
+    # Format dates with Go's time formatting
+    date_format = "2 January 2006"
+
+    dropdown_mouse_over = false
+
+    disabled_logo = false
+    logo_text = "Hack4Rail"
+
+    logo_xs = "images/logo.png"
+    logo_sm = "images/logo.png"
+    logo_md = "images/logo.png"
+    logo_lg = "images/logo.png"
+    contact_relurl = "contact"
+    # contact_address = """Hack4Rail HQ\\
+    # Hacker Street 42, 12345 Code City"""
+    # contact_phone = "+49 123 4567890"
+    # contact_email = "info@hack4rail.org"
+
+[permalinks]
+    news = "/news/:2006/:slug/"
+    challenges = "/challenges/:slug/"
+
+# Enable or disable top bar with social icons
+[params.topbar]
+    enable = false
+    text = ""
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = false
+    tags = false
+    search = false
+
+[params.features]
+    enable = true
+    cols = 3 # Default: 3, Available values 2,3,4,6
+
+[params.parallax1]
+    enable = true
+    background_image = "images/stock/pinsel-hand.jpg"
+    image_crop = "1900x1000 Bottom"
+    title = "\"Hack4Rail offers the best opportunity for folks in the railway sector to innovate and learn. I am amazed what can be achieved in just three days!\""
+    subtitle = "*-- Max Mehl, Open Source at DB*"
+
+# [params.events]
+#     enable = true
+#     title = "Events"
+#     subtitle = ""
+#     hide_summary = true
+#     limit = 4
+
+# [params.footer.menu1]
+#     enable = true
+#     headline = ""
+
+# [params.footer.menu2]
+#     enable = true
+#     headline = ""
+
+[params.footer.recent_posts]
+    enable = false
+
+[params.footer]
+    copyright = "Hack4Rail, CC-BY-SA 4.0"
+    [[params.footer.links]]
+        name = "Imprint"
+        relurl = "imprint"
+    [[params.footer.links]]
+        name = "Credits"
+        relurl = "credits"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"
+
+# Modules
+[module]
+    [[module.mounts]]
+        source = "themes/hack4rail/static/img"
+        target = "assets/images"
+    [[module.mounts]]
+        source = "static/img"
+        target = "assets/images"
+
+[build]
+[[build.cacheBusters]]
+source = 'assets/scss/.*\.scss'
+target = 'css'

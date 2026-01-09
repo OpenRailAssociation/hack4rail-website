@@ -1,0 +1,6 @@
+{{- if eq hugo.Environment "staging" }}
+<section class="banner content-align-center" id="staging-warning">
+    <h3>⚠️ {{ i18n "previewHeadline" | upper }} ⚠️</h3>
+    <p>{{ i18n "previewText" .Site.BaseURL | markdownify }}</p>
+</section>
+{{- end }}

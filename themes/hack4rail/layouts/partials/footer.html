@@ -1,0 +1,90 @@
+<footer id="footer">
+    <div class="container">
+
+        <!-- Footer Menu 1 -->
+        <div class="col-md-4 col-sm-6">
+            {{- if isset .Site.Params.footer "menu1" }}
+            <h4>{{ .Site.Params.footer.menu1.headline }}</h4>
+
+            <ul class="angle-right">
+                {{- range .Site.Menus.footer1.ByWeight }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{- end }}
+            </ul>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+            {{- end }}
+        </div>
+        <!-- /.col-md-4 -->
+
+        <!-- Footer Menu 2 -->
+        <div class="col-md-4 col-sm-6">
+            {{- if isset .Site.Params.footer "menu2" }}
+            <h4>{{ .Site.Params.footer.menu2.headline }}</h4>
+
+            <ul class="angle-right">
+                {{- range .Site.Menus.footer2.ByWeight }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{- end }}
+            </ul>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+            {{- end }}
+        </div>
+        <!-- /.col-md-4 -->
+
+        {{- if isset .Site.Params "contact_address" }}
+        <div class="col-md-4 col-sm-6">
+
+            <h4>{{ i18n "contactTitle" }}</h4>
+            <p>
+            {{- .Site.Params.contact_address | markdownify }}
+            {{- with .Site.Params.contact_phone }}
+            <br /><i class="fa-solid fa-phone" aria-hidden="true"></i> {{ partial "cloakemail" (dict "address" . "protocol" "tel") }}
+            {{- end }}
+            {{- with .Site.Params.contact_email }}
+            <br /><i class="fa-regular fa-envelope" aria-hidden="true"></i> {{ partial "cloakemail" (dict "address" .) }}
+            {{- end }}
+            </p>
+
+            <a href="{{ default " /contact" .Site.Params.contact_relurl | relURL }}" class="btn btn-small btn-template-main">{{ i18n "contactGoTo" }}</a>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        <!-- /.col-md-4 -->
+        {{- end }}
+
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- /#footer -->
+
+<!-- *** FOOTER END *** -->
+
+<!-- *** COPYRIGHT ***
+_________________________________________________________ -->
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            {{- with .Site.Params.footer.copyright }}
+            <p class="pull-left">{{ . | markdownify }}</p>
+            {{- end }}
+            {{- with .Site.Params.footer.links }}
+            <p class="pull-right">
+                {{- range $index, $element := . }}
+                    {{- if $index }} | {{ end -}}
+                    <a href="{{ $element.relurl | relURL }}">{{ $element.name | markdownify }}</a>
+                {{- end -}}
+            </p>
+            {{- end }}
+        </div>
+    </div>
+</div>
+<!-- /#copyright -->
+
+<!-- *** COPYRIGHT END *** -->

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  <head>
+    {{- partial "headers.html" . }}
+    {{- partial "custom_headers.html" . }}
+  </head>
+
+  <body>
+
+    <div id="all">
+
+        {{- partial "top.html" . }}
+
+        {{- partial "nav.html" . }}
+
+        {{- partial "staging-warning.html" . }}
+
+        {{- partial "carousel.html" (dict "context" . "items" "1" "duration" "5000") }}
+
+        {{- partial "features.html" . }}
+
+        {{/*  {{ partial "testimonials.html" . }}  */}}
+
+        {{- partial "parallax.html" .Site.Params.parallax1 }}
+
+        {{- partial "index-content.html" . }}
+
+        {{/*  {{ partial "clients.html" . }}  */}}
+
+        {{- partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{- partial "scripts.html" . }}
+
+  </body>
+</html>
