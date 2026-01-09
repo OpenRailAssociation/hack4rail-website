@@ -1,0 +1,82 @@
+name: Website build and deploy
+
+on:
+  push:
+    branches:
+      - main # Deploy branch
+
+  # Run on PRs, but only preview
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+  # Allows to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Allow only one concurrent deployment. However, do NOT cancel in-progress runs as we want to allow
+# especially production deployments to complete.
+concurrency:
+  group: pages-${{ github.ref_name }}
+  cancel-in-progress: false
+
+# Set environment variables which will be used multiple times in the workflow
+env:
+  # hugo_version: "0.147.9"
+  source_dir: "."
+  artifact_name: "website"
+  condition_production: ${{ github.ref == 'refs/heads/main' }}
+  dir_preview_subdir: h4r-pr-${{ github.event.number }}
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+        with:
+          submodules: recursive # Get submodules
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+
+      # - name: Setup Hugo
+      #   uses: peaceiris/actions-hugo@75d2e84710de30f6ff7268e08f310b60ef14033f # v3.0.0
+      #   with:
+      #     hugo-version: ${{ env.hugo_version }}
+      #     extended: true
+
+      # - name: Build production site
+      #   run: hugo -s ${{ env.source_dir }}
+      #   if: env.condition_production == 'true'
+
+      # - name: Build preview site
+      #   run: hugo -s ${{ env.source_dir }} -e staging --buildFuture --buildDrafts -b ${{ vars.WEB_DOMAIN_PREVIEW }}/${{ env.dir_preview_subdir }}/
+      #   if: github.event.pull_request
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0
+        with:
+          name: ${{ env.artifact_name }}
+          path: ${{ env.source_dir }}/public
+          include-hidden-files: true
+          retention-days: 1
+
+  deploy:
+    name: Deploy website
+    needs: build
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: OpenRailAssociation/web-deployment-action@20b8d1c718a88eb73ccfde8e4fc32a02bc13da74 # v1.1.2
+        with:
+          artifact_name: ${{ env.artifact_name }}
+          condition_production: ${{ env.condition_production }}
+          domain_production: https://hack4rail.org
+          domain_preview: ${{ vars.WEB_DOMAIN_PREVIEW }}
+          dir_base: ${{ vars.WEB_DIR_BASE }}
+          dir_production: html
+          dir_preview_base: ${{ vars.WEB_DIR_PREVIEW_BASE }}
+          dir_preview_subdir: ${{ env.dir_preview_subdir }}
+          ssh_host: ${{ vars.WEB_SSH_HOST }}
+          ssh_user: ${{ vars.WEB_SSH_USER }}
+          ssh_key: ${{ secrets.SSH_KEY }}
+          # linkchecker_exclude: ""
