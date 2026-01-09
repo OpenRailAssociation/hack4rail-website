@@ -73,7 +73,7 @@ jobs:
           domain_production: https://hack4rail.org
           domain_preview: ${{ vars.WEB_DOMAIN_PREVIEW }}
           dir_base: ${{ vars.WEB_DIR_BASE }}
-          dir_production: html
+          dir_production: hack4rail.org
           dir_preview_base: ${{ vars.WEB_DIR_PREVIEW_BASE }}
           dir_preview_subdir: ${{ env.dir_preview_subdir }}
           ssh_host: ${{ vars.WEB_SSH_HOST }}
