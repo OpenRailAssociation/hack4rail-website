@@ -117,10 +117,10 @@ disableKinds = ["taxonomy", "rss"]
     copyright = "Hack4Rail, CC-BY-SA 4.0"
     [[params.footer.links]]
         name = "Imprint"
-        relurl = "imprint"
+        relurl = "https://openrailassociation.org/imprint-privacy/"
     [[params.footer.links]]
         name = "Credits"
-        relurl = "credits"
+        relurl = "credits/"
 
 [taxonomies]
   category = "categories"
