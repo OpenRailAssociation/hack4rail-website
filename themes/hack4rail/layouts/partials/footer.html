@@ -1,0 +1,123 @@
+{{/*  Get size of columns depending on enabled footer elements. Distribute evenly */}}
+{{ $enabled := 0 }}
+{{- if .Site.Params.footer.menu1.enable }}
+    {{- $enabled = add $enabled 1 }}
+{{- end }}
+{{- if .Site.Params.footer.menu2.enable }}
+    {{- $enabled = add $enabled 1 }}
+{{- end }}
+{{- if .Site.Params.footer.recent_posts.enable }}
+    {{- $enabled = add $enabled 1 }}
+{{- end }}
+{{- if .Site.Params.footer.contact.enable }}
+    {{- $enabled = add $enabled 1 }}
+{{- end }}
+{{- $colSizeMd := cond (gt $enabled 0) (div 12 $enabled) 12 }}
+{{- $div_sizing := printf "col-md-%d col-sm-6" $colSizeMd }}
+
+<footer id="footer">
+    <div class="container">
+
+        <!-- Footer Menu 1 -->
+        {{- if .Site.Params.footer.menu1.enable }}
+        <div class="{{ $div_sizing }}">
+            <h4>{{ .Site.Params.footer.menu1.headline }}</h4>
+
+            <ul class="angle-right">
+                {{- range .Site.Menus.footer1.ByWeight }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{- end }}
+            </ul>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        {{- end }}
+        <!-- /Footer Menu 1 -->
+
+        <!-- Footer Menu 2 -->
+        {{- if .Site.Params.footer.menu2.enable }}
+        <div class="{{ $div_sizing }}">
+            <h4>{{ .Site.Params.footer.menu2.headline }}</h4>
+
+            <ul class="angle-right">
+                {{- range .Site.Menus.footer2.ByWeight }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{- end }}
+            </ul>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        {{- end }}
+        <!-- /Footer Menu 2 -->
+
+        <!-- Recent Posts -->
+        {{- if .Site.Params.footer.recent_posts.enable }}
+        <div class="{{ $div_sizing }}">
+            <h4>{{ .Site.Params.footer.recent_posts.headline }}</h4>
+            <ul class="angle-right">
+                {{- $recentPosts := first (default 5 .Site.Params.footer.recent_posts.limit) (where .Site.RegularPages "Type" "in" .Site.Params.footer.recent_posts.sections) }}
+                {{- range $recentPosts.ByDate.Reverse }}
+                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                {{- end }}
+            </ul>
+            <hr class="hidden-md hidden-lg hidden-sm">
+        </div>
+        {{- end }}
+        <!-- /Recent Posts -->
+
+        <!-- Contact Details -->
+        {{- if .Site.Params.footer.contact.enable }}
+        <div class="{{ $div_sizing }}">
+
+            <h4>{{ i18n "contactTitle" }}</h4>
+            <p>
+                {{- .Site.Params.footer.contact.address | markdownify }}
+                {{- with .Site.Params.footer.contact.phone }}
+                <br /><i class="fa-solid fa-phone" aria-hidden="true"></i> {{ partial "cloakemail" (dict "address" . "protocol" "tel") }}
+                {{- end }}
+                {{- with .Site.Params.footer.contact.email }}
+                <br /><i class="fa-regular fa-envelope" aria-hidden="true"></i> {{ partial "cloakemail" (dict "address" .) }}
+                {{- end }}
+            </p>
+
+            <a href="{{ default " /contact" .Site.Params.footer.contact.relurl | relURL }}" class="btn btn-small btn-template-main">{{ i18n "contactGoTo" }}</a>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        {{- end }}
+        <!-- /Contact Details -->
+
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- /#footer -->
+
+<!-- *** FOOTER END *** -->
+
+<!-- *** COPYRIGHT ***
+_________________________________________________________ -->
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            {{- with .Site.Params.footer.copyright }}
+            <p class="pull-left">{{ . | markdownify }}</p>
+            {{- end }}
+            {{- with .Site.Params.footer.links }}
+            <p class="pull-right">
+                {{- range $index, $element := . }}
+                    {{- if $index }} | {{ end }}
+                    <a href="{{ $element.relurl | relURL }}">{{ $element.name | markdownify }}</a>
+                {{- end }}
+            </p>
+            {{- end }}
+        </div>
+    </div>
+</div>
+<!-- /#copyright -->
+
+<!-- *** COPYRIGHT END *** -->

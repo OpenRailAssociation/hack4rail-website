@@ -1,0 +1,22 @@
+{{- $items := .items }}
+<div id="carousel" class="carousel" duration="{{ .duration }}" items="{{ .items }}">
+  <ul>
+    {{- range $index, $slide := .context.Site.Data.carousel.images }}
+    <li id="c_slide{{ add $index 1}}" class="c-slide" style="min-width: calc(100%/{{ $items }});">
+      <div class="c-mask"></div>
+      {{- $image := (partial "image-processing.html" .) }}
+      <img src="{{ $image.RelPermalink }}" alt="" />
+      <div class="c-text text-center">
+        <div>{{ $slide.text }}</div>
+      </div>
+    </li>
+    {{- end }}
+  </ul>
+  <ol>
+    {{- range $index, $page := .context.Site.Data.carousel.images }}
+    <li><a href="#c_slide{{ add $index 1 }}"></a></li>
+    {{- end }}
+  </ol>
+  <div class="prev">&lsaquo;</div>
+  <div class="next">&rsaquo;</div>
+</div>

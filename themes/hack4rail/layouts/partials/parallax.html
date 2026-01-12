@@ -1,0 +1,15 @@
+{{- if .enable }}
+{{- $parallaximg := (resources.Get .background_image) }}
+{{- with .image_crop }}{{ $parallaximg = $parallaximg.Crop . }}{{ end }}
+<section class="bar background-image-fixed no-mb color-white text-center" style="--background-image: url('{{ $parallaximg.RelPermalink }}');">
+    <div class="dark-mask"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>{{ .title | markdownify }}</h3>
+                <p class="lead">{{ .subtitle | markdownify }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+{{- end }}

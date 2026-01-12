@@ -1,0 +1,189 @@
+/* font fix and sizes */
+strong {
+  font-weight: 600;
+}
+
+h4, h5, h6 {
+  margin-top: 15px;
+}
+
+h3 {
+  font-size: 1.45em;
+}
+
+h4 {
+  font-size: 1.3em;
+}
+
+h5 {
+  font-size: 1.15em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+// Logo
+.navbar-brand {
+  img {
+    max-height: 50px; // larger than the default 42px
+    max-width: calc(100vw - 80px); // In xs screens, the logo makes place for the navbar menu
+  }
+}
+
+.navbar ul.nav>li>a {
+  text-decoration: none;
+}
+
+// Features
+section.features {
+  .icon {
+    font-size: 35px;
+  }
+
+  .box-simple {
+    mark {
+      $focus: 10%;
+      margin: 0 -0.4em;
+      padding: 0.1em 0.4em;
+      border-radius: 0.8em 0.3em;
+      background: transparent;
+      background-image: linear-gradient(to right,
+          /* Gradient direction: left to right */
+          rgba(255, 217, 146, 0.1),
+          /* Start with very transparent #ffd992 (soft yellow) */
+          rgba(255, 153, 36, 0.4) var(--focus),
+          /* Transition to a gentle #ff9924 (friendly orange) */
+          rgba(255, 217, 146, 0.3)
+          /* End with slightly transparent #ffd992 again */
+        );
+
+      -webkit-box-decoration-break: clone;
+      box-decoration-break: clone;
+    }
+  }
+}
+
+// Events
+section.events {
+  div.event {
+    max-width: 400px;
+  }
+}
+
+// Content div, making it high enough for footer to be at bottom
+#content {
+  min-height: calc(100vh - 650px);
+  margin-bottom: 100px;
+}
+
+// Related Pages
+div#related-pages {
+  margin-top: 50px;
+}
+
+// Angle-right icon for lists
+ul.angle-right {
+  --icon-size: .8em;
+  --gutter: .5em;
+  padding: 0 0 0 var(--gutter);
+
+  li {
+    padding-left: var(--gutter);
+
+    &::marker {
+      content: "\f105";
+      font-family: FontAwesome;
+      font-size: var(--icon-size);
+    }
+  }
+}
+
+// Openstreetmap iframe
+iframe#directions-map {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  border: 0;
+}
+
+// Footer FontAwesome contact
+#footer {
+  .fa-solid, .fa-regular {
+    margin-right: .4em;
+  }
+}
+
+
+// Details
+details {
+  summary {
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 0.5em 0;
+    cursor: pointer;
+
+    // arrow right in closed
+    &:before {
+      content: "\f105";
+      font-family: "FontAwesome";
+      display: inline-block;
+      width: 2.5rem;
+    }
+  }
+
+  // content
+  div {
+    padding: 0.5em 1em;
+  }
+
+  // opened details
+  &[open] {
+    margin-bottom: 0.5em;
+
+    // Summary styles when opened
+    summary {
+      max-height: 50em;
+
+      // arrow down in open
+      &:before {
+        content: "\f107";
+      }
+
+      // Animation for all children when opening
+      ~* {
+        animation: sweep .3s ease-in-out;
+
+        @keyframes sweep {
+          0% {
+            opacity: 0;
+          }
+
+          100% {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    // Styles for opened content
+    &::details-content {
+      border-top: 1px solid #aaa;
+      border-bottom: 1px solid #aaa;
+      padding-top: 0.5em;
+      margin-left: 2.5rem;
+    }
+  }
+}
+
+// Staging warning
+#staging-warning {
+  color: #fff !important;
+  background-color: #e05200;
+  padding: 10px;
+  margin-bottom: 0;
+
+  a {
+    color: #ffffff !important;
+    text-decoration: underline;
+  }
+}

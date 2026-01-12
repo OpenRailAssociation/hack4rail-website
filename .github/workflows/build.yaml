@@ -23,7 +23,7 @@ concurrency:
 
 # Set environment variables which will be used multiple times in the workflow
 env:
-  # hugo_version: "0.147.9"
+  hugo_version: "0.154.2"
   source_dir: "."
   artifact_name: "website"
   condition_production: ${{ github.ref == 'refs/heads/main' }}
@@ -39,19 +39,19 @@ jobs:
           submodules: recursive # Get submodules
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
-      # - name: Setup Hugo
-      #   uses: peaceiris/actions-hugo@75d2e84710de30f6ff7268e08f310b60ef14033f # v3.0.0
-      #   with:
-      #     hugo-version: ${{ env.hugo_version }}
-      #     extended: true
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@75d2e84710de30f6ff7268e08f310b60ef14033f # v3.0.0
+        with:
+          hugo-version: ${{ env.hugo_version }}
+          extended: true
 
-      # - name: Build production site
-      #   run: hugo -s ${{ env.source_dir }}
-      #   if: env.condition_production == 'true'
+      - name: Build production site
+        run: hugo -s ${{ env.source_dir }}
+        if: env.condition_production == 'true'
 
-      # - name: Build preview site
-      #   run: hugo -s ${{ env.source_dir }} -e staging --buildFuture --buildDrafts -b ${{ vars.WEB_DOMAIN_PREVIEW }}/${{ env.dir_preview_subdir }}/
-      #   if: github.event.pull_request
+      - name: Build preview site
+        run: hugo -s ${{ env.source_dir }} -e staging --buildFuture --buildDrafts -b ${{ vars.WEB_DOMAIN_PREVIEW }}/${{ env.dir_preview_subdir }}/
+        if: github.event.pull_request
 
       - name: Upload artifact
         uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0

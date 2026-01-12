@@ -1,0 +1,17 @@
+name = "Hack4Rail"
+license = "MIT"
+licenselink = "https://github.com/OpenRailAssociation/hack4rail-website/blob/main/themes/hack4rail/LICENSE"
+description = "A fork of the Universal Hugo theme"
+homepage = "https://github.com/OpenRailAssociation/hack4rail-website/website/tree/main/themes/hack4rail"
+tags = ["blog", "company", "portfolio", "projects", "minimal", "responsive"]
+features = ["blog", "themes", "disqus", "minimal", "responsive"]
+min_version = 0.139
+
+[author]
+    name = "mxmehl"
+    homepage = "https://github.com/mxmehl"
+
+# If Porting existing theme
+[original]
+    author =  "bootstrapious"
+    homepage = "http://bootstrapious.com/p/universal-business-e-commerce-template"
