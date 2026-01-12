@@ -5,3 +5,9 @@ images:
     - "fill 1900x600 Buttom"
     filter:
       - GaussianBlur: 1
+  - image: images/stock/menschen-haende.jpg
+    text: "Collaborate on making railways better"
+    processes:
+    - "fill 1900x600 Center"
+    filter:
+      - GaussianBlur: 1
