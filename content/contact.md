@@ -2,7 +2,7 @@
 title: Contact
 menus:
   main:
-    weight: 30
+    weight: 90
   footer1:
     weight: 30
 ---

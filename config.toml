@@ -23,13 +23,13 @@ disableKinds = ["taxonomy", "rss"]
     leftDoubleQuote = '“'
     rightDoubleQuote = '”'
 
-# [menu]
-# # Main menu
-# [[menu.main]]
-#     name = "Challenges"
-#     identifier = "challenges"
-#     weight = 2
-#     url = ""
+[menu]
+# Main menu
+[[menu.main]]
+    name = "Organization"
+    identifier = "organization"
+    weight = 30
+    url = ""
 
 [params]
     original_url = "https://hack4rail.org" # always stays the same
