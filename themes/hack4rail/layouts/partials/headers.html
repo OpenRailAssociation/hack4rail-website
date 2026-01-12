@@ -53,7 +53,11 @@
 <!-- Facebook OpenGraph tags -->
 {{- $is_blog := and (eq .Type "blog") (eq .Kind "page") }}
 {{- $image := cond .Params.banner.image .Params.banner.image (.Site.Params.default_sharing_image | default "images/sharing-default.png") }}
-{{- $image = (resources.Get $image).Fill "1200x630 Center" }}
+{{- with (resources.Get $image) }}
+  {{- $image = (resources.Get $image).Fill "1200x630 Center" }}
+{{ else }}
+  {{ errorf "Image %s not found (called by %s)" $image .File.Filename }}
+{{- end }}
 <meta property="og:locale" content="{{ replace .Site.LanguageCode "-" "_" }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:title" content="{{ $title_plain }}">

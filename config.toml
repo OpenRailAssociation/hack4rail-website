@@ -78,7 +78,7 @@ disableKinds = ["taxonomy", "rss"]
 
 [params.parallax1]
     enable = true
-    background_image = "images/stock/pinsel-hand.jpg"
+    background_image = "images/stock/brush-hand.jpg"
     image_crop = "1900x1000 Bottom"
     title = "\"Hack4Rail offers the best opportunity for folks in the railway sector to innovate and learn. I am amazed what can be achieved in just three days!\""
     subtitle = "*-- Max Mehl, Open Source at DB*"

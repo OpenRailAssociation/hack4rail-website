@@ -7,7 +7,7 @@ menus:
     weight: 10
 aliases: /news.html
 banner:
-  image: images/stock/wimpel.jpg
+  image: images/stock/pennants.jpg
   processes:
     - "fill 1900x600"
   filter:

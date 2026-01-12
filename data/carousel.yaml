@@ -2,10 +2,10 @@ images:
   - image: images/events/hack4rail-2025-group.jpg
     text: "Join the fantastic crowd!"
     processes:
-    - "fill 1900x600 Buttom"
+    - "fill 1900x600 Bottom"
     filter:
       - GaussianBlur: 1
-  - image: images/stock/menschen-haende.jpg
+  - image: images/stock/humans-hands.jpg
     text: "Collaborate on making railways better"
     processes:
     - "fill 1900x600 Center"

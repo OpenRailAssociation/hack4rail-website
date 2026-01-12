@@ -7,7 +7,7 @@ menus:
     weight: 10
 aliases: /challenges.html
 banner:
-  image: images/stock/handschlag.jpg
+  image: images/stock/handshake.jpg
   processes:
     - "fill 1900x600"
   filter:
