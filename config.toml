@@ -1,4 +1,4 @@
-baseURL = "https://hack4rail.org"
+baseURL = "https://hack4rail.org" # may be changed when deploying to preview environments
 title = "Hack4Rail"
 
 theme = ["hack4rail", "hugomod-images", "hugo-cloak-email"]
@@ -32,6 +32,7 @@ disableKinds = ["taxonomy", "rss"]
 #     url = ""
 
 [params]
+    original_url = "https://hack4rail.org" # always stays the same
     author = "Hack4Rail Team"
     defaultKeywords = ["hack4rail", "hackathon", "railway", "rail", "opensource", "community", "developers", "software", "openrail"]
     mainSections = ["news", "challenges"]
