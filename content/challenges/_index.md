@@ -3,6 +3,8 @@ title: Challenges
 menus:
   main:
     weight: 20
+  footer2:
+    weight: 10
 aliases: /challenges.html
 banner:
   image: images/stock/handschlag.jpg

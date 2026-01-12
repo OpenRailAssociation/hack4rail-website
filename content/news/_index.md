@@ -3,6 +3,8 @@ title: News
 menus:
   main:
     weight: 10
+  footer1:
+    weight: 10
 aliases: /news.html
 banner:
   image: images/stock/wimpel.jpg

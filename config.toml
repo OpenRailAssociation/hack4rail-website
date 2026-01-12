@@ -56,11 +56,6 @@ disableKinds = ["taxonomy", "rss"]
     logo_sm = "images/logo.png"
     logo_md = "images/logo.png"
     logo_lg = "images/logo.png"
-    contact_relurl = "contact"
-    # contact_address = """Hack4Rail HQ\\
-    # Hacker Street 42, 12345 Code City"""
-    # contact_phone = "+49 123 4567890"
-    # contact_email = "info@hack4rail.org"
 
 [permalinks]
     news = "/news/:2006/:slug/"
@@ -95,16 +90,28 @@ disableKinds = ["taxonomy", "rss"]
 #     hide_summary = true
 #     limit = 4
 
-# [params.footer.menu1]
-#     enable = true
-#     headline = ""
+[params.footer.menu1]
+    enable = true
+    headline = "Preparation"
 
-# [params.footer.menu2]
-#     enable = true
-#     headline = ""
+[params.footer.menu2]
+    enable = true
+    headline = "Participation"
 
 [params.footer.recent_posts]
+    enable = true
+    headline = "Recent Updates"
+    limit = 3
+    sections = ["news"]
+
+[params.footer.contact]
     enable = false
+    address = """Hack4Rail HQ\\
+    Hacker Street 42, 12345 Code City"""
+    phone = "+49 123 4567890"
+    email = "info@hack4rail.org"
+    relurl = "contact"
+
 
 [params.footer]
     copyright = "Hack4Rail, CC-BY-SA 4.0"
