@@ -7,7 +7,7 @@ menus:
   footer2:
     weight: 20
 banner:
-  image: images/stock/train-window.jpg
+  image: images/stock/josh-nezon-R1Zb58LmwIY-unsplash.jpg
   processes:
     - "fill 1900x600 Center"
   filter:
