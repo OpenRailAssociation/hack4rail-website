@@ -17,6 +17,9 @@ banner:
 If you have any questions, suggestions, or would like to get in touch with the Hack4Rail team, please feel free to reach out to us:
 
 OpenRail Association: {{< cloakemail "hack4rail@openrailassociation.org" >}}
+
 DB: {{< cloakemail "hack4rail@deutschebahn.com" >}}
+
 SBB: {{< cloakemail "bianca.frey@sbb.ch" >}}
+
 ÖBB: {{< cloakemail "openinnovation@oebb.at" >}}
