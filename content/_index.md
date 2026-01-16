@@ -4,12 +4,9 @@ related_pages:
   disable_for_section: true
 ---
 
-Welcome to **Hack4Rail**, the international hackathon dedicated to fostering innovation in the railway sector. Our mission is to bring together developers, designers, and railway enthusiasts from around the world to collaborate on cutting-edge solutions that can transform the industry.
+**Hack4Rail** is an employee hackathon held since 2018 by the three German-speaking railways ÖBB, SBB, and DB. It was formerly known as the “Dreiländerhack” and is organized in partnership with the OpenRail Association, whose member railways also receive tickets to the hackathon. Hack4Rail focuses on topics of international rail transport, the exchange of knowledge and digital solutions across railway companies. In just two and a half days of hacking, teams work on cross-railway challenges and develop digital and data-driven prototypes. 
 
-At Hack4Rail, we believe in the power of open source and community-driven development. Participants work in teams to tackle real-world challenges faced by the railway industry, leveraging technology to create impactful solutions that enhance safety, efficiency, and user experience.
+### Hack4Rail 2026
 
-This website serves as a hub for all things Hack4Rail. Here, you can find information about upcoming events, past hackathons, challenges, and resources to help you get involved. Whether you're a seasoned developer or new to the world of railways, there's a place for you at Hack4Rail.
-
-## Sub Headline
-
-This is a perfect place to describe the event.
+March 22 - 24, 2026
+ÖBB Innovation Factory | Wien
