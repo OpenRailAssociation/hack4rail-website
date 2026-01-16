@@ -8,5 +8,6 @@ related_pages:
 
 ### Hack4Rail 2026
 
-June 22 - 24, 2026
+**June 22 - 24, 2026**
+
 ÖBB Innovation Factory | Wien
