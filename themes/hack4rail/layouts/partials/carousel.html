@@ -1,3 +1,4 @@
+{{- if .context.Site.Params.carousel.enable }}
 {{- $items := .items }}
 <div id="carousel" class="carousel" duration="{{ .duration }}" items="{{ .items }}">
   <ul>
@@ -20,3 +21,4 @@
   <div class="prev">&lsaquo;</div>
   <div class="next">&rsaquo;</div>
 </div>
+{{- end }}

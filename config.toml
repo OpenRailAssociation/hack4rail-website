@@ -66,6 +66,10 @@ disableKinds = ["taxonomy", "rss"]
     enable = false
     text = ""
 
+[params.carousel]
+    enable = true
+    duration = 7000
+
 # Enable and disable widgets for the right sidebar
 [params.widgets]
     categories = false
@@ -73,11 +77,11 @@ disableKinds = ["taxonomy", "rss"]
     search = false
 
 [params.features]
-    enable = true
+    enable = false
     cols = 3 # Default: 3, Available values 2,3,4,6
 
 [params.parallax1]
-    enable = true
+    enable = false
     background_image = "images/stock/brush-hand.jpg"
     image_crop = "1900x1000 Bottom"
     title = "\"Hack4Rail offers the best opportunity for folks in the railway sector to innovate and learn. I am amazed what can be achieved in just three days!\""
@@ -99,7 +103,7 @@ disableKinds = ["taxonomy", "rss"]
     headline = "Participation"
 
 [params.footer.recent_posts]
-    enable = true
+    enable = false
     headline = "Recent Updates"
     limit = 3
     sections = ["news"]
