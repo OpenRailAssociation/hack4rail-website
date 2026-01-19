@@ -29,10 +29,11 @@
                         <div id="post-content">
                           {{ . }}
                         </div>
-                        <hr />
                         {{- end }}
 
                         {{- $paginator := .Paginate (where .Data.Pages "Type" "in" .Site.Params.mainSections) }}
+                        {{- if gt (len $paginator.Pages) 0 }}
+                        <hr />
                         {{- range $paginator.Pages }}
                         <section class="post">
                             <div class="row">
@@ -97,6 +98,7 @@
                             <li class="next disabled"><a href="#">{{ i18n "older" }} &rarr;</a></li>
                             {{- end }}
                         </ul>
+                        {{- end }}
                     </div>
                     <!-- /.col-md-9 -->
 
