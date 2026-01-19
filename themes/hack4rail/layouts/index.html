@@ -16,7 +16,7 @@
 
         {{- partial "staging-warning.html" . }}
 
-        {{- partial "carousel.html" (dict "context" . "items" "1" "duration" "5000") }}
+        {{- partial "carousel.html" (dict "context" . "items" "1" "duration" .Site.Params.carousel.duration) }}
 
         {{- partial "features.html" . }}
 

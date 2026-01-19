@@ -66,6 +66,10 @@ disableKinds = ["taxonomy", "rss"]
     enable = false
     text = ""
 
+[params.carousel]
+    enable = true
+    duration = 7000
+
 # Enable and disable widgets for the right sidebar
 [params.widgets]
     categories = false
