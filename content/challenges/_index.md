@@ -18,7 +18,7 @@ banner:
 Challenges are specific problem statements or tasks presented to participants during the Hack4Rail hackathon. They are designed to inspire creativity, foster innovation, and encourage collaboration among attendees. Challenges can range from technical issues, such as developing new software solutions or improving existing systems, to broader topics like enhancing user experience or promoting sustainability in the railway sector.
 
 You can propose a challenge for the Hack4Rail 2026 event **till March 19, 2026**, please use our [**challenge submission form**](https://share.openrailassociation.org/apps/forms/s/j5T8b5XocATQj5Rik5rcN5mH).
-Before your proposal, please read our [**information for challenge owner**](https://share.openrailassociation.org/s/kCosqBtaLnDejrx).
+Before your proposal, please read our [**information for challenge owner**](https://share.openrailassociation.org/s/piGGXFLxW9RQapf).
 
 We created five theme tracks, which cover important international topics for all railway companies. They primarily serve as inspiration and to bring structure into the challenge overview. If your challenge doesn’t match any of the given theme tracks, feel free to choose our sixth category “Mobility & Logistics Think Tank”.
 
