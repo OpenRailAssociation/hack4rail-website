@@ -20,6 +20,6 @@ OpenRail Association: {{< cloakemail "hack4rail@openrailassociation.org" >}}
 
 DB: {{< cloakemail "hack4rail@deutschebahn.com" >}}
 
-SBB: {{< cloakemail "bianca.frey@sbb.ch" >}}
+SBB: {{< cloakemail "bianca.frey@sbb.ch" >}} {{< cloakemail "christian.trachsel@sbb.ch" >}}
 
 ÖBB: {{< cloakemail "openinnovation@oebb.at" >}}
