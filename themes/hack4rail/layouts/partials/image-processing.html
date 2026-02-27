@@ -1,7 +1,7 @@
 {{- /* Expects .image (asset), optionally .processes and .filter */}}
 {{- $image := .image }}
 {{- with (resources.Get .image) }}
-  {{- $image = (resources.Get $image).Fill "1200x630 Center" }}
+  {{- $image = (resources.Get $image) }}
 {{ else }}
   {{ errorf "Image %s not found (called by %s)" $image .File.Filename }}
 {{- end }}
