@@ -10,8 +10,8 @@ related_pages:
 
 **June 22 - 24, 2026**
 
-ÖBB Innovation Factory | Wien
-Lassallestrasse 5
+ÖBB Innovation Factory. 
+Lassallestrasse 5. 
 1020 Wien
 
 Got an idea for a challenge? Become a challenge owner and [submit your challenge until March 10](https://share.openrailassociation.org/apps/forms/s/j5T8b5XocATQj5Rik5rcN5mH)!
