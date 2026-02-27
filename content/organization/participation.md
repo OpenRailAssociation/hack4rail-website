@@ -7,7 +7,7 @@ menus:
   footer2:
     weight: 20
 banner:
-  image: images/stock/train-window.jpg
+  image: images/events/Hack4Rail_registration.jpg
   processes:
     - "fill 1900x600 Center"
   filter:
