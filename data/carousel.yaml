@@ -2,7 +2,7 @@ images:
   - image: images/events/Hack4Rail Gruppenfoto.jpeg
     text: "Join the fantastic crowd!"
     processes:
-    - "fill 1900x600 Bottom"
+    - "fill 1900x600 Smart webp"
   - image: images/events/Hack4Rail-Bern-2025_Copyright-SBB_021.jpg
     text: "Collaborate on making railways better"
     processes:
