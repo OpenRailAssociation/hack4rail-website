@@ -12,6 +12,8 @@ banner:
     - "fill 1900x600 Center"
 ---
 
+{{ .TableOfContents }}
+
 ## 🔍 General information 
 
 ### What is Hack4Rail?
