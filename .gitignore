@@ -20,3 +20,6 @@ hugo.linux
 
 # lychee
 .lycheecache
+
+# DS_Store
+.DS_Store
