@@ -10,9 +10,6 @@ banner:
   image: images/stock/josh-nezon-R1Zb58LmwIY-unsplash.jpg
   processes:
     - "fill 1900x600 Center"
-  filter:
-    - GaussianBlur: 2
-    - Brightness: -10
 ---
 
 ## Travel Information

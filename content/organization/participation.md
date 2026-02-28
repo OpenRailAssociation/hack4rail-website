@@ -10,9 +10,6 @@ banner:
   image: images/events/Hack4Rail_registration.jpg
   processes:
     - "fill 1900x600 Center"
-  filter:
-    - GaussianBlur: 2
-    - Brightness: -10
 ---
 
 ## How can I participate? 
