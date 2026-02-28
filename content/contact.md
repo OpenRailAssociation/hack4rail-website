@@ -6,12 +6,9 @@ menus:
   footer1:
     weight: 30
 banner:
-  image: images/stock/notebook.jpg
+  image: images/events/Hack4Rail-Bern-2025_Copyright-SBB_036.jpg
   processes:
     - "fill 1900x600 Center"
-  filter:
-    - GaussianBlur: 2
-    - Brightness: -10
 ---
 
 If you have any questions, suggestions, or would like to get in touch with the Hack4Rail team, please feel free to reach out to us:
