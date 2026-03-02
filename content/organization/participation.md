@@ -26,3 +26,9 @@ If you want to get a feeling for what to expect at the Hack4Rail in Vienna, chec
 
 ### Hack4Rail 2025 - Bern
 {{< youtube F_wM7T0TsnQ >}}
+
+### 3LänderHack 2024 - Berlin
+{{< youtube SmvpGrI1P9w >}}
+
+### 3LänderHack 2023 - Wien
+{{< youtube mCjkUJ-Zah4 >}}
