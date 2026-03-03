@@ -56,7 +56,7 @@ You can join in two ways:
 
 Before registering, please ensure that you have aligned with your line manager.
 
-➡️ More details [here](/organization/participation)
+➡️ More details [here]({{% relref "participation" %}})
 
 ### Do I need prior hackathon experience?
 
@@ -98,7 +98,7 @@ The regulation is specific to each railway and must be discussed and agreed upon
 
 Participation in Hack4Rail is free of charge. Depending on the host location, costs for accommodation and travel to and from the event may apply. Therefore, please check with your line manager before registering.
 
-➡️ Information regarding travel and accommodation can be found [here](/organisation/travel)
+➡️ Information regarding travel and accommodation can be found [here]({{% relref "travel" %}})
 
 ### Are meals and refreshments provided?
 
@@ -112,7 +112,7 @@ No. Participation is on-site only, and you must be present for all event days to
 
 ### Who can I contact if I have further questions?
 
-➡️ Contact information can be found [here](/contact)
+➡️ Contact information can be found [here]({{% relref "contact" %}})
 
 
 
