@@ -6,7 +6,7 @@ menus:
   footer1:
     weight: 30
 banner:
-  image: images/events/Hack4Rail-Bern-2025_Copyright-SBB_036.jpg
+  image: images/events/Hack4Rail-Bern-2025_hall.jpg
   processes:
     - "fill 1900x600 Center"
 ---
