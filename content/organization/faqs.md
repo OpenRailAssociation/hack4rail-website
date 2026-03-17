@@ -20,6 +20,10 @@ banner:
 
 Hack4Rail is a cross‑railway employee hackathon by *ÖBB*, *SBB*, *DB*, and the *OpenRail Association (ORA)*. In two and a half days, teams collaboratively develop digital and data‑driven prototypes for international rail challenges.
 
+### How can I edit this website?
+
+You cannot.
+
 ### Who is hosting this year’s event?
 
 Hack4Rail 2026 is hosted by *ÖBB*, in collaboration with *DB*, *SBB*, and the *OpenRail Association*. The Hackathon will take place from *22–24 June* at the *ÖBB Open Innovation Factory* in Vienna.
