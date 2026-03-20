@@ -16,7 +16,7 @@ banner:
 
 You can participate, if you are an employee of ÖBB, SBB, DB or a member organisation of the OpenRail Association.  
 
-As a **challenge owner**, you could share your challenge with us till March 19, 2026 - *submissions are no longer possible at this time!*. 
+As a **challenge owner**, you could share your challenge with us till March 19, 2026 - *submissions are no longer possible at this time*! 
 
 If your challenge is selected for Hack4Rail, we look forward to your pitch live in Vienna. You will find out if your challenge is included by the end of March, at the latest. Exactly two challenge owners should be present at the event for each challenge. However, the submission may be made by multiple people. 
 
