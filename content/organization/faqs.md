@@ -51,7 +51,7 @@ Participants will receive the full event program prior to the Hackathon. The sch
 ### How can I participate?
 
 You can join in two ways:
-1. Submit a Challenge – You propose a challenge topic and present it if selected. Challenge submissions are open until 19 March.
+1. Submit a Challenge – challenge submissions closed on March 19, it is no longer possible to submit a challenge for Hack4Rail 2026
 1. Join as a Participant – You apply as an individual, join a team on site, and work on one of the selected challenges. Participant registration starts on 1 April.
 
 Before registering, please ensure that you have aligned with your line manager.
