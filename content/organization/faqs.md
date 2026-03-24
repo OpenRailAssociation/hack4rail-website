@@ -7,7 +7,7 @@ menus:
   footer2:
     weight: 20
 banner:
-  image: images/stock/train-window.jpg
+  image: images/stock/Hack4Rail_2025_046.jpg
   processes:
     - "fill 1900x600 Center"
 ---
