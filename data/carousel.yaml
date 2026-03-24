@@ -3,7 +3,7 @@ images:
     text: "Join the fantastic crowd!"
     processes:
     - "fill 1900x600 Smart webp"
-  - image: images/events/Hack4Rail-Bern-2025_mugs.jpg
+  - image: images/events/Hack4Rail_2025_046.jpg
     text: "Collaborate on making railways better"
     processes:
     - "fill 1900x600 Center"
