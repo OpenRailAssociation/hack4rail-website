@@ -1,5 +1,5 @@
 ---
-title: One UI - Störfall Now!
+title: "OneUI: Störfall Now! Fast Info. Right Info."
 banner:
   image: images/events/Hack4Rail-Bern-2025_team.jpg
   processes:

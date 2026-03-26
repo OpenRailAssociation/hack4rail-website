@@ -1,5 +1,5 @@
 ---
-title: DIRECT
+title: DIRECT – Dynamic Inspector Routing for Efficient Coverage in Trains
 banner:
   image: images/events/Hack4Rail-Bern-2025_team.jpg
   processes:

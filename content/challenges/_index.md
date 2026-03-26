@@ -24,30 +24,48 @@ We created five theme tracks, which cover important international topics for all
 In this theme track, we are looking for challenges that deal with optimizing scheduling and capacity utilization. The goal is to find innovative solutions that enable more efficient planning and use of track capacities, avoid overcrowding, and minimize empty runs. We expect creative approaches that contribute to seamless, efficient rail traffic.
 
 #### Challenges in this track:
-- [DIRECT – Dynamic Inspector Routing for Efficient Coverage in Trains]({{% relref "21-direct" %}})
-- [Holiday Aware, Data Driven Relief Train Planning]({{% relref "22-relief-planning" %}})
+- [DIRECT – Dynamic Inspector Routing for Efficient Coverage in Trains]({{% relref "1-direct" %}})
+- [Holiday Aware, Data Driven Relief Train Planning]({{% relref "2-relief-planning" %}})
+- [Robust Auto‑Layout Algorithms for the Netzgrafik Editor]({{% relref "3-nge-auto-layout" %}})
 
 ### 2. Cross-Border Mobility and Logistics 🚅🌍📦
 
 In this theme track, we are looking for challenges that enhance the experience and efficiency of cross-border passenger and freight transport. Concepts should harmonize information flows, enrich long-distance travel, and promote the internationalization of services. We expect proposals that strengthen market positioning and increase system stability and punctuality through innovative processes along the travel and transport chain. What new services could be created to facilitate access to rail transport?
+
+#### Challenges in this track:
+- [PopUpSim Optimizer]({{% relref "4-popup-sim" %}})
+- [Common Database for Technical Locomotive Data]({{% relref "5-loco-db" %}})
+- [Avoid the Nightmare with the Night Train]({{% relref "6-nighttrain-nightmare" %}})
+- [Who Makes the Rules?]({{% relref "7-rules" %}})
+- [Build an Open Model of Cross‑Border Mobility]({{% relref "8-cross-border-mobility" %}})
 
 ### 3. Efficient Disruption and Construction Site Management 🛠📲🌱
 
 This theme track calls for challenges that enable quick and effective management of construction sites and disruptions in rail traffic. We are looking for ways to guarantee operational safety, optimize information flows, and ensure the reliability of rail traffic even in unforeseen circumstances. Also sought are innovative concepts that lead to improved deployment planning, sustainable performance, and a reduction of noise and CO2 emissions.
 
 #### Challenges in this track:
-- [OneUI: Störfall Now! Fast Info. Right Info.]({{% relref "20-one-ui" %}})
+- [OneUI: Störfall Now! Fast Info. Right Info.]({{% relref "9-one-ui" %}})
+- [Digitalization of Taxi Vouchers and Passenger Pooling in Disruption Cases]({{% relref "10-taxi-vouchers" %}})
+- [Automatic Contract Analysis]({{% relref "11-contract-analysis" %}})
 
 ### 4. Train Stations as Mobility Hubs 🏬🚉🚲
 
 This theme track seeks challenges that improve the function and experience of train stations and their surroundings. We are expecting innovative approaches for barrier-free access, smart space management, and the integration of mobility hubs to increase accessibility and comfort. Furthermore, ideas are sought that support an integrated mobility chain and offer individualized customer services at the station, establishing it as a central service location. "Station as a Service" is more than just a catchphrase here.
 
 #### Challenges in this track:
-- [One Screen. One Journey. Integrated Station Information incl. Rail Replacement]({{% relref "19-one-screen" %}})
+- [One Screen. One Journey. Integrated Station Information incl. Rail Replacement]({{% relref "12-one-screen" %}})
+- [A Spatial AI Wayfinding Agent for Railway Stations]({{% relref "13-wayfinding" %}})
+- [Station Data Unlocked (Somehow)]({{% relref "14-station-data" %}})
 
 ### 5. Green Digitalization for Environmental Protection and Sustainability 🌳🚞💚
 
 This theme track invites the submission of challenges that address pioneering ideas and challenges in the areas of resilience, decarbonization, energy efficiency and circularity. We are looking for digital solutions that affect all areas of railway operations and logistics.
+
+#### Challenges in this track:
+- [Predictive Model for Energy Consumption Including Weather Effects]({{% relref "15-energy-consumption" %}})
+- [Route Roulette – A Playful Allocation Quest]({{% relref "16-route-roulette" %}})
+- [Rolling Stock Software Configuration Management]({{% relref "17-rolling-stock-config" %}})
+- [Infrastruction Congestion]({{% relref "18-infra-congestion" %}})
 
 ### 6. Mobility and Logistics Think Tank 🔮🤖🔭
 
