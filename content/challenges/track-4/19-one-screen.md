@@ -1,10 +1,5 @@
 ---
 title: One Screen. One Journey.
-menus:
-  main:
-    weight: 20
-  footer1:
-    weight: 10
 banner:
   image: images/events/Hack4Rail-Bern-2025_team.jpg
   processes:
