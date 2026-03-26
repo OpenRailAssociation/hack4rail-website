@@ -1,5 +1,5 @@
 ---
-title: One UI: Störfall Now!
+title: One UI - Störfall Now!
 menus:
   main:
     weight: 20
