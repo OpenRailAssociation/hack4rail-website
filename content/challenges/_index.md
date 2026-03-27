@@ -65,7 +65,7 @@ This theme track invites the submission of challenges that address pioneering id
 - [Predictive Model for Energy Consumption Including Weather Effects]({{% relref "15-energy-consumption" %}})
 - [Route Roulette – A Playful Allocation Quest]({{% relref "16-route-roulette" %}})
 - [Rolling Stock Software Configuration Management]({{% relref "17-rolling-stock-config" %}})
-- [Infrastruction Congestion]({{% relref "18-infra-congestion" %}})
+- [Infrastructure Congestion]({{% relref "18-infra-congestion" %}})
 
 ### 6. Mobility and Logistics Think Tank 🔮🤖🔭
 
