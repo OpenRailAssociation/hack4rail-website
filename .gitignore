@@ -23,3 +23,5 @@ hugo.linux
 
 # DS_Store
 .DS_Store
+
+.vscode
