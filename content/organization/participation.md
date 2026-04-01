@@ -12,17 +12,33 @@ banner:
     - "fill 1900x600 Center"
 ---
 
-## How can I participate? 
+## How can I participate?
 
-You can participate, if you are an employee of ÖBB, SBB, DB or a member organisation of the OpenRail Association.  
+You can participate, if you are an employee of ÖBB, SBB, DB or a member organisation of the OpenRail Association.
 
-As a **challenge owner**, you could share your challenge with us till March 19, 2026 - *submissions are no longer possible at this time*! 
+As a **participant**, you actively contribute to the hackathon by forming a team with others and tackling a challenge together. Railway-specific knowledge is just as important as data, coding, or other IT skills. The registration is open till April 30, 2026.
 
-If your challenge is selected for Hack4Rail, we look forward to your pitch live in Vienna. You will find out if your challenge is included by the end of March, at the latest. Exactly two challenge owners should be present at the event for each challenge. However, the submission may be made by multiple people. 
+### Register as a participant
 
-As a **participant**, you actively contribute to the hackathon by forming a team with others and tackling a challenge together. Railway-specific knowledge is just as important as data, coding, or other IT skills. We will open the registration by announcing the participating challenges on April 01, 2026. 
+* [Employee of ÖBB, DB and OpenRail Association members](https://share.openrailassociation.org/apps/forms/s/qakt2CwdYtCyeRFisAYDg5rt)
+* [Employee of SBB]()
+
+### Application Deadline & Process
+
+* Application period: 1 April – 30 April 2026
+* After submitting the form, you will receive confirmation of your registration.
+* A selection process will then follow.
+* You will receive confirmation of acceptance or rejection by 5 May 2026
+
+Important for participants from DB/SBB/OpenRail Association: Please only book train travel and hotel after you have received your official participation confirmation.
+
+As a **challenge owner**, you were invited to share your challenge with us till March 19, 2026 - *submissions are now closed*! For the selected challenges we look forward to your pitch live in Vienna. Please also register as participant.
+
+Exactly two challenge owners should be present at the event for each challenge.
 
 ## What can I expect when I participate?
+
+Hackers from the fields of technology, design, business, data, UX and more will come together in teams to tackle challenges, test their results, and pitch their solutions at the end. Coding is a plus – but by no means a requirement. All skills are welcome. The event will be held in English.
 
 If you want to get a feeling for what to expect at the Hack4Rail in Vienna, check out these videos of the previous years:
 
