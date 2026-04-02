@@ -21,7 +21,7 @@ As a **participant**, you actively contribute to the hackathon by forming a team
 ### Register as a participant
 
 * [Employee of ÖBB, DB and OpenRail Association members](https://share.openrailassociation.org/apps/forms/s/qakt2CwdYtCyeRFisAYDg5rt)
-* Employee of SBB (link will follow)
+* [Employee of SBB](https://hack4rail2026.event.sbb.ch/#E3300E)
 
 ### Application Deadline & Process
 
