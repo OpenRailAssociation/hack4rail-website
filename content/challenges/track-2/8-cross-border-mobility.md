@@ -14,7 +14,7 @@ Cross‑border travel demand is poorly understood and remains car‑centric. Ope
 
 ## Proposed Solution
 
-Use open data to model cross‑border mobility and demonstrate rail‑based alternatives. The model serves as a reusable foundation for planning and policy analysis.
+Use open data to model cross‑border mobility and demonstrate rail‑based alternatives. The model serves as a reusable foundation for planning and policy analysis. We will rely on the [existing Mobility library](https://github.com/mobility-team/mobility/).
 
 ## Required Expert Profiles
 
