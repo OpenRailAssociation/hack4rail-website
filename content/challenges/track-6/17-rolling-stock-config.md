@@ -25,4 +25,4 @@ Design a common configuration‑management concept for rolling stock software ac
 
 ## Company
 
-This is a challenge provided by *SNCF*
+This is a challenge provided by *SNCF* and *DB*
