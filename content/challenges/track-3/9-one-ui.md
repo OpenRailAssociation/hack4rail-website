@@ -22,5 +22,5 @@ A unified, role‑based incident user interface that consolidates all relevant d
 - Real‑time data processing and event aggregation
 - Optional: Frontend prototyping and dashboard development (e.g. web‑based UIs)
 
-## Company
-This is a challenge provided by *ÖBB*
+## Challenge Owners
+Julia Jakoubek, Erich Brokisch *(ÖBB)*

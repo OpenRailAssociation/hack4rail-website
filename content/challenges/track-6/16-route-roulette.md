@@ -27,5 +27,5 @@ The outcome should enable wellfounded, factbased decisions under resource constr
 - Business analysts and corporate developers 
 - Infrastructure managers and railway asset experts 
 
-## Company
+## Challenge Owners
 This is a challenge provided by *SBB*

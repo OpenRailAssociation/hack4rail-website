@@ -22,6 +22,6 @@ Develop decision‑support models that proactively identify congestion risks and
 * Optimization specialists
 * Process and systems analysts
 
-## Company
+## Challenge Owners
 
 This is a challenge provided by *Infrabel*

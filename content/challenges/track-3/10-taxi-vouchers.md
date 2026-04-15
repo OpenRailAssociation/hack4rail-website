@@ -21,5 +21,5 @@ Build a prototype of a web-based platform that enables automated eligibility ver
 - API integration (especially for mobility/taxi services)	 
 - Customer experience and UX design 
 
-## Company
+## Challenge Owners
 This is a challenge provided by *DB*

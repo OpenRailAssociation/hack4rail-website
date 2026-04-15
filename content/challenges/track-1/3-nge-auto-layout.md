@@ -21,5 +21,5 @@ Develop fast, robust auto‑layout algorithms that preserve network topology whi
 - TypeScript / frontend developers 
 - Railway timetable experts 
 
-## Company
+## Challenge Owners
 This is a challenge provided by *SBB*

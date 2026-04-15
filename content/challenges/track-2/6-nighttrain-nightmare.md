@@ -22,5 +22,5 @@ Create a shared, cross‑operator dashboard showing reservation and sales system
 - Data integration specialists 
 - Dashboard and frontend developers 
 
-## Company
+## Challenge Owners
 This is a challenge provided by *SBB*

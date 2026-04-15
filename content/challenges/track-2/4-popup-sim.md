@@ -20,5 +20,5 @@ Add an optimization layer that automatically generates, evaluates, and compares 
 - Simulation specialists 
 - Python and data engineers
 
-## Company
+## Challenge Owners
 This is a challenge provided by *DB*

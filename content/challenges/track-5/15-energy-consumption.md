@@ -19,5 +19,5 @@ Develop a predictive energy consumption model that integrates weather data, punc
 - Data scientists and machine‑learning engineers 
 - Software Developers
 
-## Company
+## Challenge Owners
 This is a challenge provided by *DB*

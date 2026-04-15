@@ -19,5 +19,5 @@ Prototype a shared, standardized database for locomotive technical data, compara
 - Locomotive disposition & planning experts
 - Data modelers and data architects 
 
-## Company
+## Challenge Owners
 This is a challenge provided by *DB*

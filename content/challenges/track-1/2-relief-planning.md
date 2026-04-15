@@ -1,5 +1,5 @@
 ---
-title: Holiday Aware, Data Driven Relief Train Planning
+title: Holiday‑Informed Relief Train Planning
 banner:
   image: images/events/Hack4Rail-Bern-2025_team.jpg
   processes:
@@ -22,5 +22,5 @@ A combined, data driven planning approach that integrates holiday calendars, dem
 - Holiday, event, and seasonal demand modeling
 - Optional: Data engineering and prototyping (e.g. Python, Jupyter, dashboarding tools)
 
-## Company
-This is a challenge provided by *ÖBB*
+## Challenge Owners
+David Chmelik, Steven Sernett, Bertram Wassermann *(ÖBB)*

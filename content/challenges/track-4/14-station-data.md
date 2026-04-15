@@ -19,5 +19,5 @@ Assess how far the extraction of structured infrastructure data from unstructure
 - People working in railway station environment 
 - LLMs, heuristics or data modeling experts  
 
-## Company
+## Challenge Owners
 This is a challenge provided by *DB*

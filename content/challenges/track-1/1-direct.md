@@ -22,5 +22,5 @@ A standardized, data‑driven approach for dynamic routing and deployment of qua
 - Optimization, Operations Research, Data Science / Analytics
 - Optional: Software and prototyping expertise (e.g. Python, Jupyter, Excel-based models)
 
-## Company
-This is a challenge provided by *ÖBB*
+## Challenge Owners
+Sebastian Unger, Lisa Oswald *(ÖBB)*

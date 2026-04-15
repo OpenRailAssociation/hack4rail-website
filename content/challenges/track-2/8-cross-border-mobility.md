@@ -22,6 +22,6 @@ Use open data to model cross‑border mobility and demonstrate rail‑based alte
 * Data scientists
 * Python and open‑data specialists
 
-## Company
+## Challenge Owners
 
-This is a challenge provided by *SNCF*
+Capucine-Marin Dubroca-Voisin, Matthieu Lévêque *(SNCF)*
