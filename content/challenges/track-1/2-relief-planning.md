@@ -1,5 +1,5 @@
 ---
-title: Holiday‑Informed Relief Train Planning
+title: Holiday Aware, Data Driven Relief Train Planning
 banner:
   image: images/events/Hack4Rail-Bern-2025_team.jpg
   processes:
