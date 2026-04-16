@@ -22,4 +22,4 @@ Develop fast, robust auto‑layout algorithms that preserve network topology whi
 - Railway timetable experts 
 
 ## Challenge Owners
-This is a challenge provided by *SBB*
+Adrian Egli, Martin Sojka *(SBB)*

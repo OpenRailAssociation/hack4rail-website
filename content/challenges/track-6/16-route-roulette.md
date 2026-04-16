@@ -28,4 +28,4 @@ The outcome should enable wellfounded, factbased decisions under resource constr
 - Infrastructure managers and railway asset experts 
 
 ## Challenge Owners
-This is a challenge provided by *SBB*
+Rafael Cueni, Thierry Pulver, Mitchell Heuzeveldt, Jannik von Rudzinski *(SBB)*

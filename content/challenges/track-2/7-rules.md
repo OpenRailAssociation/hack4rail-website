@@ -24,4 +24,4 @@ An AI‑supported approach to extract, structure, and manage business rules from
 - Railway domain specialists
 
 ## Challenge Owners
-This is a challenge provided by *SBB*
+Simon Freihart *(SBB)*

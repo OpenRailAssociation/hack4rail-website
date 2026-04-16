@@ -23,4 +23,4 @@ Create a shared, cross‑operator dashboard showing reservation and sales system
 - Dashboard and frontend developers 
 
 ## Challenge Owners
-This is a challenge provided by *SBB*
+Liam van Niekerk, Robér Bormann *(SBB)*
