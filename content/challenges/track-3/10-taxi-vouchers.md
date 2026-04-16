@@ -22,4 +22,4 @@ Build a prototype of a web-based platform that enables automated eligibility ver
 - Customer experience and UX design 
 
 ## Challenge Owners
-This is a challenge provided by *DB*
+Michelle Stahl, Lutz Ritzel *(DB)*

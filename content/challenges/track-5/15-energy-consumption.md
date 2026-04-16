@@ -20,4 +20,4 @@ Develop a predictive energy consumption model that integrates weather data, punc
 - Software Developers
 
 ## Challenge Owners
-This is a challenge provided by *DB*
+Jochen Völker, Benjamin Weber *(DB)*
