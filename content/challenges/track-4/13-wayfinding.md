@@ -20,5 +20,5 @@ Develop a landmark‑based AI wayfinding solution using structured station data 
 - AI engineers and routing specialists 
 - Customer experience and UX experts 
 
-## Company
+## Challenge Owners
 This is a challenge provided by *DB*

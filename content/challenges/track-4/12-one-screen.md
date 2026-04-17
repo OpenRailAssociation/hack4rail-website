@@ -22,5 +22,5 @@ A unified, station‑level information concept that provides multimodal, journey
 - Real‑time data integration and disruption management
 - Optional: UI/UX prototyping and digital signage solutions
 
-## Company
-This is a challenge provided by *ÖBB*
+## Challenge Owners
+Michael Szumowski, Katharina Landl *(ÖBB)*

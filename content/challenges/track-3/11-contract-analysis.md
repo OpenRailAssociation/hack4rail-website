@@ -24,5 +24,5 @@ An automated contract analysis module that aggregates contractrelevant data from
 - AI / analytics experts for document and data interpretation 
 - Optional: Software and dataplatform engineers for prototyping and integration 
 
-## Company
-This is a challenge provided by *SBB*
+## Challenge Owners
+Simon Noelle, Samuel Engel *(SBB)*

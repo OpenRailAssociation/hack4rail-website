@@ -23,6 +23,6 @@ Design a common configuration‑management concept for rolling stock software ac
 * Cybersecurity specialists
 * Safety and compliance professionals
 
-## Company
+## Challenge Owners
 
-This is a challenge provided by *SNCF* and *DB*
+Julien Spanneut *(SNCF)*, Florian Andres *(DB)*
