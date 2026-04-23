@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  <head>
+    {{- partial "headers.html" . }}
+    {{- partial "custom_headers.html" . }}
+  </head>
+
+  <body>
+
+    <div id="all">
+
+        {{- partial "top.html" . }}
+
+        {{- partial "nav.html" . }}
+
+        {{- partial "staging-warning.html" . }}
+
+        {{- partial "banner.html" . }}
+
+        <div id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9" id="blog-post">
+
+                        <div id="post-content">
+                          {{- .Content }}
+                        </div>
+
+                        {{- range .Site.Data.program.days }}
+                        <div class="program-day">
+                            <h2>{{ .emoji }} {{ .title }}</h2>
+                            {{- range .items }}
+                            <div class="schedule-item">
+                                <div class="schedule-time">{{ .time }}</div>
+                                <div class="schedule-desc">{{ .description }}</div>
+                            </div>
+                            {{- end }}
+                        </div>
+                        {{- end }}
+
+                    </div>
+
+                    <div class="col-md-3">
+                        {{- partial "sidebar.html" . }}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{- partial "footer.html" . }}
+
+    </div>
+
+    {{- partial "scripts.html" . }}
+
+  </body>
+</html>

@@ -187,3 +187,36 @@ details {
     text-decoration: underline;
   }
 }
+
+// Program schedule
+.program-day {
+  margin-bottom: 2.5em;
+
+  h2 {
+    border-bottom: 3px solid #333;
+    padding-bottom: 0.3em;
+  }
+}
+
+.schedule-item {
+  display: flex;
+  padding: 0.6em 0;
+  border-bottom: 1px solid #eee;
+
+  &:last-child { border-bottom: none; }
+}
+
+.schedule-time {
+  min-width: 160px;
+  font-weight: 700;
+  color: #555;
+}
+
+.schedule-desc {
+  flex: 1;
+}
+
+@media (max-width: 600px) {
+  .schedule-item { flex-direction: column; }
+  .schedule-time { min-width: auto; margin-bottom: 0.2em; }
+}
