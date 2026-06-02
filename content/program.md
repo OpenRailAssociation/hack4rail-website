@@ -11,5 +11,3 @@ banner:
 ---
 
 Three days of hacking, pitching, and collaboration — from Monday evening kick-off to Wednesday afternoon awards. Here's what to expect at Hack4Rail 2026.
-
-*Schedule subject to change.*
