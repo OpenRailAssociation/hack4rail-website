@@ -7,7 +7,7 @@ menus:
     weight: 10
 aliases: /challenges.html
 banner:
-  image: images/events/Hack4Rail-Bern-2025_team.jpg
+  image: images/events/Hack4Rail_2025_066.jpg
   processes:
     - "fill 1900x600"
 ---
